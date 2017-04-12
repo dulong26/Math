@@ -12,14 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setRandom()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func setRandom() {
+        let random1 = Int(arc4random_uniform(5)) + 1
+        let random2 = Int(arc4random_uniform(5)) + 1
+        print(random1)
+        print(random2)
+        
     }
-
 
 }
 
