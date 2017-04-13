@@ -176,6 +176,10 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gkb-CY-vfR" secondAttribute="bottom" id="yw6-Qd-mmC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lbl_1" destination="YDN-pY-47x" id="VdG-rP-UAe"/>
+                        <outlet property="lbl_2" destination="n3K-kT-esi" id="1FK-lD-yAS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
