@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var lbl_1: UILabel!
-    @IBOutlet weak var lbl_2: UILabel!
+//    @IBOutlet weak var lbNum1: UILabel!
+//    @IBOutlet weak var lbNum2: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +22,10 @@ class ViewController: UIViewController {
     func setRandom() {
         let random1 = Int(arc4random_uniform(5)) + 1
         let random2 = Int(arc4random_uniform(5)) + 1
-        lbl_1.text = String(random1)
-        lbl_2.text = String(random2)
-        
+//        lbNum1.text = String(random1)
+//        lbNum2.text = String(random2)
+        print(random1)
+        print(random2)
     }
 
 }
