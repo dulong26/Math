@@ -233,6 +233,7 @@
                         <outlet property="btResult3" destination="cqa-R3-Ici" id="tRj-0o-Arb"/>
                         <outlet property="lbNum1" destination="YDN-pY-47x" id="CFY-34-cmN"/>
                         <outlet property="lbNum2" destination="n3K-kT-esi" id="xJD-j4-hiv"/>
+                        <outlet property="lbSign" destination="8Gh-Uq-Gf4" id="gQ6-n7-7Lq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
