@@ -179,6 +179,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		A602C6AB1E9CDFBA00D3DC41 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -327,6 +328,7 @@
 				A602C6B31E9CDFBA00D3DC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
