@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     var countWrong = 0
     
     @IBOutlet weak var lbCountDown: UILabel!
+    var time: Int = 0
+    var timer = Timer()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +36,9 @@ class ViewController: UIViewController {
         countWrong = 0
         lbCountRight.text = String(countRight)
         lbCountWrong.text = String(countWrong)
+        
+        time = 10
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(ViewController.countDown), userInfo: nil, repeats: true)
         
     }
     
@@ -61,9 +67,6 @@ class ViewController: UIViewController {
         
         setRandom()
     }
-    
-    
-    
     
     //Choose random numbers
     func setRandom() {
@@ -116,5 +119,12 @@ class ViewController: UIViewController {
         return (p1 - p2)
     }
 
+    func countDown() {
+        time -= 1
+        lbCountDown.text = String(time)
+        if time == 0 {
+            time = 10
+        }
+    }
 }
 
